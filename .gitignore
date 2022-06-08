@@ -32,3 +32,10 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+.slicemachine
+.vscode
+/customtypes
+/slices
+
+sm.json

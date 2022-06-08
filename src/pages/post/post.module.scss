@@ -1,1 +1,46 @@
 // TODO
+.articleContainer {
+  padding: 1rem 0;
+
+  img {
+    width: 100%;
+  }
+}
+
+.infoContainer {
+  margin-top: 60px;
+
+  p {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+
+  >div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 1rem;
+  }
+
+  div time,
+  span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    font-weight: 400;
+  }
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  p {
+    font-size: 2rem;
+    font-weight: 700;
+
+    margin: 2rem 0;
+  }
+}

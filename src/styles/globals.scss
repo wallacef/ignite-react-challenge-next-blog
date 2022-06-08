@@ -5,3 +5,34 @@
 }
 
 // TODO
+:root {
+  --gray-100: #f8f8f8;
+  --gray-200: #d7d7d7;
+  --gray-300: #bbbbbb;
+  --pink: #ff57b2;
+  --black: #1a1d23;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+body {
+  background: var(--black);
+  color: var(--gray-100);
+
+  font: 400 1rem "Inter", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
